@@ -1,11 +1,11 @@
-# 🐳 Docker MCP Server
+# Docker MCP Server
 
 This project implements a **Model Context Protocol (MCP)** server that exposes Docker management capabilities as MCP tools.  
 You can connect it to **Amazon Q**, **Claude Desktop**, or any other MCP-compatible client.
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Tool Name           | Description |
 |----------------------|-------------|
@@ -20,14 +20,14 @@ You can connect it to **Amazon Q**, **Claude Desktop**, or any other MCP-compati
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 
 - **Python 3.10+**
 - **Docker Engine** installed and running
 - **Amazon Q** desktop app (or another MCP client)
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # Clone the repository into ~/mcp (replace <repo_url>)
@@ -46,7 +46,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
-## 🧠 Adding the Docker MCP Server to Your Client
+## Adding the Docker MCP Server to Your Client
 Add the following configuration to your client’s MCP configuration file 
 ```json
 {
@@ -59,7 +59,7 @@ Add the following configuration to your client’s MCP configuration file
 }
 ```
 ---
-## 👨‍💻 Author
+## Author
 
 **Ramesh Indrajith Kumar**  
 🌍 [rameshindrajith.com](http://rameshindrajith.com)  
